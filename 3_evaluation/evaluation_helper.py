@@ -544,10 +544,10 @@ def get_column_or_return_nan(frame, column):
     
     return frame.get(column, pd.Series(index=frame.index, name=column))
 
-def f1_score(frame):
+def f1_score(frame, recall='val_accuracy_on_one', precision='val_precision_on_1'):
     """Calculate the f1 score and return the column """
-    return 2 * frame['val_accuracy_on_one'] * frame['val_precision_on_1']/\
-                 (frame['val_accuracy_on_one']+frame['val_precision_on_1'])
+    return 2 * frame[recall] * frame[precision]/\
+                 (frame[recall]+frame[precision])
 
 def frame_extraction(frame, model_name):
     """ retrieve the relevant columns and do some processing and return the clean frame """
