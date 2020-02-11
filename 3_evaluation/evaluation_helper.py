@@ -533,3 +533,40 @@ def plot_per_feature_both(predictions, actual, features):
     ax.set_title('Model Prediction on features when present and absent', fontsize=40)
     ax.set_xticklabels([],rotation=90)
     return fig, ax
+
+# Comparative evaluation
+def grab_model_name(path):
+    """Get the path name and parse out the name of the model"""
+    return path.split('/')[-1].split('.')[0]
+
+def get_column_or_return_nan(frame, column):
+    """ either retrieve the the column or return NaN if it doesn't exist"""
+    
+    return frame.get(column, pd.Series(index=frame.index, name=column))
+
+def f1_score(frame):
+    """Calculate the f1 score and return the column """
+    return 2 * frame['val_accuracy_on_one'] * frame['val_precision_on_1']/\
+                 (frame['val_accuracy_on_one']+frame['val_precision_on_1'])
+
+def frame_extraction(frame, model_name):
+    """ retrieve the relevant columns and do some processing and return the clean frame """
+    
+    # Define the columns that we want to return
+    columns = ['epoch','val_precision_on_1', 'val_accuracy_on_zero', 'val_accuracy_on_one','model', 'f1']
+    
+    # Create the F1 score
+    frame['f1'] = f1_score(frame)
+    
+    # Get each of the desired columns, return NaN if it doesn't exist
+    for column in columns:
+        frame[column] = get_column_or_return_nan(frame, column)
+    
+    
+    # Fetch the model name
+    frame['model'] = model_name
+    
+    # Get the columns used for comparison
+    reduced = frame[columns]
+    
+    return reduced
