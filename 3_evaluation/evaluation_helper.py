@@ -15,7 +15,20 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import roc_curve, auc
 from sklearn.cluster import KMeans
 
+def get_feature_counts():    
+    df_clean = pd.read_csv('../1_cleaning/metadata_cleaned2.csv')
 
+    df_clean['features'] = df_clean['features'].apply(eval)
+
+    list_of_all_features = [item for l in df_clean.features for item in l]
+
+    feature_df = pd.DataFrame.from_dict(Counter(list_of_all_features), orient='index').reset_index()
+
+    feature_df.rename(columns={'index':'feature', 0:'count'}, inplace=True)
+
+    feature_df.sort_values('count', inplace=True)
+    
+    return feature_df
 
 def feature_frequency():
     """Fetch all the features and then return a series with frequency of each"""
@@ -31,6 +44,8 @@ def feature_frequency():
     feature_df.rename(columns={'index':'feature', 0:'count'}, inplace=True)
 
     feature_df.sort_values('count', inplace=True)
+    
+    feature_df=get_feature_counts()
 
     feature_df['feature_frequency'] = np.array(feature_df['count']/np.max(feature_df['count']))
 
@@ -417,7 +432,7 @@ def precision_recall_f1(y_val_bin, predictions_test, features):
     g.set_title('F1, Precision and recall per feature', fontsize=40)
     g.set_xticklabels([],rotation=90)
     
-    return
+    return fig,ax
 
 def plot_per_feature_error(predictions, actual, features):
     
@@ -544,10 +559,10 @@ def get_column_or_return_nan(frame, column):
     
     return frame.get(column, pd.Series(index=frame.index, name=column))
 
-def f1_score(frame, recall='val_accuracy_on_one', precision='val_precision_on_1'):
+def f1_score(frame, recall_column='val_accuracy_on_one', precision_column='val_precision_on_1'):
     """Calculate the f1 score and return the column """
-    return 2 * frame[recall] * frame[precision]/\
-                 (frame[recall]+frame[precision])
+    return 2 * frame[recall_column] * frame[precision_column]/\
+                 (frame[recall_column]+frame[precision_column])
 
 def frame_extraction(frame, model_name):
     """ retrieve the relevant columns and do some processing and return the clean frame """

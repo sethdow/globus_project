@@ -1,185 +1,185 @@
-,features,attribute_group,attribute,globus_attr_group_to_use
-0,absatzart-blockabsatz,absatzart,blockabsatz,['globus:pim.accessoires.absatzart']
-1,absatzart-flach,absatzart,flach,['globus:pim.accessoires.absatzart']
-2,anlass-abend,anlass,abend,['globus:pim.damenfashion.anlass']
-3,anlass-business,anlass,business,['globus:pim.damenfashion.anlass']
-4,anlass-casual,anlass,casual,['globus:pim.damenfashion.anlass']
-5,anlass-freizeit,anlass,freizeit,['globus:pim.kinder.anlass']
-6,anthrazit,attribute not known,anthrazit,
-7,armabschluss-manschettenmiteinemknopf,armabschluss,manschettenmiteinemknopf,['globus:pim.damenfashion.armabschluss']
-8,armabschluss-mitverstellbarenmanschetten,armabschluss,mitverstellbarenmanschetten,['globus:pim.damenfashion.armabschluss']
-9,armelform-raglanarmel,armelform,raglanarmel,['globus:pim.damenfashion.armelform']
-10,armellange-34armlange,armellange,34armlange,['globus:pim.damenfashion.armellange']
-11,armellange-kurzarm,armellange,kurzarm,['globus:pim.damenfashion.armellange']
-12,armellange-langarm,armellange,langarm,['globus:pim.damenfashion.armellange']
-13,armellange-ohnearm,armellange,ohnearm,['globus:pim.damenfashion.armellange']
-14,ausschnittkragenform-blusenkragen,ausschnittkragenform,blusenkragen,['globus:pim.damenfashion.ausschnittkragenform']
-15,ausschnittkragenform-kapuzenkragen,ausschnittkragenform,kapuzenkragen,['globus:pim.damenfashion.ausschnittkragenform']
-16,ausschnittkragenform-polokragen,ausschnittkragenform,polokragen,['globus:pim.damenfashion.ausschnittkragenform']
-17,ausschnittkragenform-rundhalsausschnitt,ausschnittkragenform,rundhalsausschnitt,['globus:pim.damenfashion.ausschnittkragenform']
-18,ausschnittkragenform-stehkragen,ausschnittkragenform,stehkragen,['globus:pim.damenfashion.ausschnittkragenform']
-19,ausschnittkragenform-vausschnitt,ausschnittkragenform,vausschnitt,['globus:pim.damenfashion.ausschnittkragenform']
-20,beidesaison,attribute not known,beidesaison,
-21,beige,attribute not known,beige,
-22,besonderheiten-abnehmbarerlaengenverstellbarerschulterriemen,besonderheiten,abnehmbarerlaengenverstellbarerschulterriemen,['globus:pim.accessoires.besonderheiten']
-23,besonderheiten-anhaenger,besonderheiten,anhaenger,['globus:pim.accessoires.besonderheiten']
-24,besonderheiten-applikationen,besonderheiten,applikationen,
-25,besonderheiten-fransen,besonderheiten,fransen,['globus:pim.accessoires.besonderheiten']
-26,besonderheiten-glitzerapplikationen,besonderheiten,glitzerapplikationen,
-27,besonderheiten-goldfarbenedetails,besonderheiten,goldfarbenedetails,['globus:pim.accessoires.besonderheiten']
-28,besonderheiten-mitschoenerraffung,besonderheiten,mitschoenerraffung,['globus:pim.damenfashion.besonderheiten']
-29,besonderheiten-mitunterkleid,besonderheiten,mitunterkleid,['globus:pim.damenfashion.besonderheiten']
-30,besonderheiten-silberfarbenedetails,besonderheiten,silberfarbenedetails,['globus:pim.accessoires.besonderheiten']
-31,besonderheiten-taschenbodenmitschutzfuesschen,besonderheiten,taschenbodenmitschutzfuesschen,['globus:pim.accessoires.besonderheiten']
-32,besonderheiten-verstellbarerschulterriemen,besonderheiten,verstellbarerschulterriemen,['globus:pim.accessoires.besonderheiten']
-33,bleichen-0,bleichen,0,
-34,bleichen-2,bleichen,2,
-35,bordeaux,attribute not known,bordeaux,
-36,braun,attribute not known,braun,
-37,brusttasche-mitbrusttasche,brusttasche,mitbrusttasche,['globus:pim.damenfashion.brusttasche']
-38,buegeln-0,buegeln,0,
-39,buegeln-1,buegeln,1,
-40,buegeln-2,buegeln,2,
-41,bundhohe-normalebundhohe,bundhohe,normalebundhohe,['globus:pim.damenfashion.bundhohe']
-42,chemReinigen-0,chemReinigen,0,
-43,chemReinigen-3,chemReinigen,3,
-44,chemReinigen-4,chemReinigen,4,['globus:pim.general.pflegehinweis.chemReinigen']
-45,decksohle-leder,decksohle,leder,['globus:pim.accessoires.decksohle']
-46,decksohle-textil,decksohle,textil,
-47,ecru,attribute not known,ecru,
-48,falten-bugelfalten,falten,bugelfalten,['globus:pim.damenfashion.falten']
-49,formschuhe-offeneschuhspitze,formschuhe,offeneschuhspitze,['globus:pim.accessoires.formschuhe']
-50,formschuhe-runderschuhspitze,formschuhe,runderschuhspitze,['globus:pim.accessoires.formschuhe']
-51,formschuhe-spitzeschuhspitze,formschuhe,spitzeschuhspitze,['globus:pim.accessoires.formschuhe']
-52,futtermaterial-L18,futtermaterial,L18,
-53,futtermaterial-PES,futtermaterial,PES,
-54,futtermaterial-textil,futtermaterial,textil,
-55,griff-festergriff,griff,festergriff,['globus:pim.damenfashion.griff']
-56,griff-fliessend,griff,fliessend,['globus:pim.damenfashion.griff']
-57,griff-weichergriff,griff,weichergriff,['globus:pim.damenfashion.griff']
-58,grün,attribute not known,grün,
-59,hellblau,attribute not known,hellblau,
-60,hemdenkragenform-buttondownkragen,hemdenkragenform,buttondownkragen,['globus:pim.herrenfashion.hemdenkragenform']
-61,hemdenkragenform-kentkragen,hemdenkragenform,kentkragen,['globus:pim.herrenfashion.hemdenkragenform']
-62,hosenbeinform-schmalzulaufendgeschnittenesbein,hosenbeinform,schmalzulaufendgeschnittenesbein,['globus:pim.damenfashion.hosenbeinform']
-63,hosenlange-78lange,hosenlange,78lange,['globus:pim.damenfashion.hosenlange']
-64,hosenlange-normalelange,hosenlange,normalelange,['globus:pim.damenfashion.hosenlange']
-65,innenausstattung-facher,innenausstattung,facher,['globus:pim.damenfashion.innenausstattung']
-66,innenausstattung-fachmitreissverschluss,innenausstattung,fachmitreissverschluss,['globus:pim.damenfashion.innenausstattung']
-67,innenausstattung-handyfach,innenausstattung,handyfach,['globus:pim.damenfashion.innenausstattung']
-68,innenausstattung-innentasche,innenausstattung,innentasche,['globus:pim.damenfashion.innenausstattung']
-69,innenausstattung-schluesselanhaenger,innenausstattung,schluesselanhaenger,['globus:pim.damenfashion.innenausstattung']
-70,innenausstattung-steckfacher,innenausstattung,steckfacher,['globus:pim.damenfashion.innenausstattung']
-71,innenausstattung-vollfutter,innenausstattung,vollfutter,['globus:pim.damenfashion.innenausstattung']
-72,klein gemustert,attribute not known,klein gemustert,
-73,knopfleiste-mitaufgesetzterknopfleiste,knopfleiste,mitaufgesetzterknopfleiste,['globus:pim.herrenfashion.knopfleiste']
-74,knopfleiste-mitglatterknopfleiste,knopfleiste,mitglatterknopfleiste,['globus:pim.herrenfashion.knopfleiste']
-75,kragenstabchen-herausnehmbarekragenstabchen,kragenstabchen,herausnehmbarekragenstabchen,['globus:pim.herrenfashion.kragenstabchen']
-76,kragenstabchen-ohnekragenstabchen,kragenstabchen,ohnekragenstabchen,['globus:pim.herrenfashion.kragenstabchen']
-77,laufsohle-gummi,laufsohle,gummi,['globus:pim.accessoires.laufsohle']
-78,laufsohle-leder,laufsohle,leder,['globus:pim.accessoires.laufsohle']
-79,material-CAC,material,CAC,
-80,material-CMD,material,CMD,
-81,material-CO,material,CO,
-82,material-CV,material,CV,
-83,material-EL,material,EL,
-84,material-L1,material,L1,
-85,material-L18,material,L18,
-86,material-L2,material,L2,
-87,material-LI,material,LI,
-88,material-MER,material,MER,
-89,material-PA,material,PA,
-90,material-PES,material,PES,
-91,material-PU,material,PU,
-92,material-SE,material,SE,
-93,material-WO,material,WO,
-94,musterung-aufdruck,musterung,aufdruck,['globus:pim.damenfashion.musterung']
-95,musterung-grafischemmuster,musterung,grafischemmuster,['globus:pim.damenfashion.musterung']
-96,musterung-karomuster,musterung,karomuster,['globus:pim.damenfashion.musterung']
-97,musterung-organischemmuster,musterung,organischemmuster,['globus:pim.damenfashion.musterung']
-98,musterung-streifenmuster,musterung,streifenmuster,['globus:pim.damenfashion.musterung']
-99,musterung-unifarben,musterung,unifarben,
-100,nassReinigen-0,nassReinigen,0,
-101,navabsatzhohe-bis3cmabsatzhohe,navabsatzhohe,bis3cmabsatzhohe,['globus:pim.accessoires.navabsatzhohe']
-102,navabsatzhohe-uber6cmabsatzhohe,navabsatzhohe,uber6cmabsatzhohe,['globus:pim.accessoires.navabsatzhohe']
-103,navabsatzhohe-von3cm6cmabsatzhohe,navabsatzhohe,von3cm6cmabsatzhohe,['globus:pim.accessoires.navabsatzhohe']
-104,navblusentuniken-blusen,navblusentuniken,blusen,['globus:pim.damenfashion.navblusentuniken']
-105,navblusentuniken-schlupfblusen,navblusentuniken,schlupfblusen,['globus:pim.damenfashion.navblusentuniken']
-106,navdamenaccessoires-schalsundtucher,navdamenaccessoires,schalsundtucher,['globus:pim.accessoires.navdamenaccessoires']
-107,navdamenschuhe-sandalensandaletten,navdamenschuhe,sandalensandaletten,['globus:pim.accessoires.navdamenschuhe']
-108,navdamenschuhe-sneakers,navdamenschuhe,sneakers,['globus:pim.accessoires.navdamenschuhe']
-109,navdamenschuhe-stiefelstiefeletten,navdamenschuhe,stiefelstiefeletten,['globus:pim.accessoires.navdamenschuhe']
-110,navdamentaschen-clutchabendtaschen,navdamentaschen,clutchabendtaschen,['globus:pim.accessoires.navdamentaschen']
-111,navdamentaschen-handtaschen,navdamentaschen,handtaschen,['globus:pim.accessoires.navdamentaschen']
-112,navdamentaschen-umhangeschultertaschen,navdamentaschen,umhangeschultertaschen,['globus:pim.accessoires.navdamentaschen']
-113,navhosen-chinos,navhosen,chinos,['globus:pim.damenfashion.navhosen']
-114,navhosen-stoffhosen,navhosen,stoffhosen,['globus:pim.damenfashion.navhosen']
-115,navkleider-freizeitkleider,navkleider,freizeitkleider,['globus:pim.damenfashion.navkleider']
-116,navmusterung-gemustertodermitdruck,navmusterung,gemustertodermitdruck,['globus:pim.damenfashion.navmusterung']
-117,navmusterung-unifarben,navmusterung,unifarben,['globus:pim.damenfashion.navmusterung']
-118,navpulloverstrick-pullover,navpulloverstrick,pullover,['globus:pim.damenfashion.navpulloverstrick']
-119,navpulloverstrick-strickjacken,navpulloverstrick,strickjacken,['globus:pim.damenfashion.navpulloverstrick']
-120,navshirtstopssweats-poloshirts,navshirtstopssweats,poloshirts,['globus:pim.damenfashion.navshirtstopssweats']
-121,navshirtstopssweats-shirts,navshirtstopssweats,shirts,['globus:pim.damenfashion.navshirtstopssweats']
-122,navshirtstopssweats-sweatjs,navshirtstopssweats,sweatjs,['globus:pim.damenfashion.navshirtstopssweats']
-123,navshirtstopssweats-tshirts,navshirtstopssweats,tshirts,['globus:pim.damenfashion.navshirtstopssweats']
-124,offwhite,attribute not known,offwhite,
-125,passform-001,passform,001,['globus:pim.general.passform']
-126,passform-002,passform,002,['globus:pim.general.passform']
-127,passform-003,passform,003,['globus:pim.general.passform']
-128,passform-009,passform,009,['globus:pim.general.passform']
-129,pink,attribute not known,pink,
-130,qualitaet-100baumwolle,qualitaet,100baumwolle,['globus:pim.heimhaushalt.qualitaet']
-131,qualitaet-100cashmere,qualitaet,100cashmere,['globus:pim.heimhaushalt.qualitaet']
-132,qualitaet-100leinen,qualitaet,100leinen,['globus:pim.heimhaushalt.qualitaet']
-133,qualitaet-100seide,qualitaet,100seide,['globus:pim.heimhaushalt.qualitaet']
-134,qualitaet-100wolle,qualitaet,100wolle,['globus:pim.heimhaushalt.qualitaet']
-135,qualitaet-echtesleder,qualitaet,echtesleder,['globus:pim.heimhaushalt.qualitaet']
-136,qualitaet-kunstleder,qualitaet,kunstleder,
-137,qualitaet-kunstmischgewebe,qualitaet,kunstmischgewebe,['globus:pim.heimhaushalt.qualitaet']
-138,qualitaet-mischgewebemitelasthan,qualitaet,mischgewebemitelasthan,['globus:pim.heimhaushalt.qualitaet']
-139,qualitaet-naturfasermischgewebe,qualitaet,naturfasermischgewebe,['globus:pim.heimhaushalt.qualitaet']
-140,qualitaet-naturfasermitelasthan,qualitaet,naturfasermitelasthan,['globus:pim.heimhaushalt.qualitaet']
-141,rahmengenaht-False,rahmengenaht,False,
-142,regularfit,attribute not known,regularfit,
-143,rocklange-inmidirocklange,rocklange,inmidirocklange,['globus:pim.damenfashion.rocklange']
-144,rosa,attribute not known,rosa,
-145,saison-Warmequalitaet,saison,Warmequalitaet,['globus:pim.damenfashion.saison']
-146,saison-leichtequalitaet,saison,leichtequalitaet,['globus:pim.damenfashion.saison']
-147,saison-mittelschwerequalitaet,saison,mittelschwerequalitaet,['globus:pim.damenfashion.saison']
-148,schuhhoehe-Sneakertief,schuhhoehe,Sneakertief,['globus:pim.accessoires.schuhhoehe']
-149,slimfit,attribute not known,slimfit,
-150,sommer,attribute not known,sommer,
-151,tailliert,attribute not known,tailliert,
-152,taschen-leistentaschen,taschen,leistentaschen,['globus:pim.damenfashion.taschen']
-153,taschen-passepoiltaschen,taschen,passepoiltaschen,['globus:pim.damenfashion.taschen']
-154,taschen-schragertascheneingriff,taschen,schragertascheneingriff,['globus:pim.damenfashion.taschen']
-155,trocknen-0,trocknen,0,
-156,trocknen-1,trocknen,1,
-157,trocknen-2,trocknen,2,
-158,verschlussartfashion-druckknopfe,verschlussartfashion,druckknopfe,['globus:pim.damenfashion.verschlussartfashion']
-159,verschlussartfashion-knopfe,verschlussartfashion,knopfe,['globus:pim.damenfashion.verschlussartfashion']
-160,verschlussartfashion-magnetverschluss,verschlussartfashion,magnetverschluss,['globus:pim.damenfashion.verschlussartfashion']
-161,verschlussartfashion-reisverschluss,verschlussartfashion,reisverschluss,['globus:pim.damenfashion.verschlussartfashion']
-162,verschlussartfashion-riegelverschluss,verschlussartfashion,riegelverschluss,['globus:pim.damenfashion.verschlussartfashion']
-163,verschlussartfashion-schnurung,verschlussartfashion,schnurung,['globus:pim.damenfashion.verschlussartfashion']
-164,verschlussschuhe-reissverschluss,verschlussschuhe,reissverschluss,['globus:pim.accessoires.verschlussschuhe']
-165,verschlussschuhe-zumschlupfen,verschlussschuhe,zumschlupfen,['globus:pim.accessoires.verschlussschuhe']
-166,verschlussschuhe-zumschnuren,verschlussschuhe,zumschnuren,['globus:pim.accessoires.verschlussschuhe']
-167,waschen-0,waschen,0,
-168,waschen-1,waschen,1,
-169,waschen-2,waschen,2,
-170,waschen-3,waschen,3,
-171,waschen-4,waschen,4,['globus:pim.general.pflegehinweis.waschen']
-172,waschen-F,waschen,F,['globus:pim.general.pflegehinweis.waschen']
-173,waschen-G,waschen,G,['globus:pim.general.pflegehinweis.waschen']
-174,webart-Strukturstrick,webart,Strukturstrick,['globus:pim.damenfashion.webart']
-175,webart-ausjersey,webart,ausjersey,['globus:pim.damenfashion.webart']
-176,webart-chambraygewebeleichtstrukturierteroptik,webart,chambraygewebeleichtstrukturierteroptik,['globus:pim.damenfashion.webart']
-177,webart-feineschiffongewebe,webart,feineschiffongewebe,['globus:pim.damenfashion.webart']
-178,webart-gewebemitflacheroptik,webart,gewebemitflacheroptik,['globus:pim.damenfashion.webart']
-179,webart-oxfordgewebestrukturierteroptik,webart,oxfordgewebestrukturierteroptik,['globus:pim.damenfashion.webart']
-180,webart-popelinegewebeflacheroptik,webart,popelinegewebeflacheroptik,['globus:pim.damenfashion.webart']
-181,webart-strick,webart,strick,['globus:pim.damenfashion.webart']
-182,webart-twillgewebeleichterschragverlaufenderstruktur,webart,twillgewebeleichterschragverlaufenderstruktur,['globus:pim.damenfashion.webart']
-183,winter,attribute not known,winter,
+;features;attribute_group;attribute;globus_attr_group_to_use;attribute_group_eng;attribute_eng;show
+0;absatzart-blockabsatz;absatzart;blockabsatz;['globus:pim.accessoires.absatzart'];heel;block heels;Y
+1;absatzart-flach;absatzart;flach;['globus:pim.accessoires.absatzart'];heel;flat;Y
+2;anlass-abend;anlass;abend;['globus:pim.damenfashion.anlass'];occasion;evening;Y
+3;anlass-business;anlass;business;['globus:pim.damenfashion.anlass'];occasion;business;Y
+4;anlass-casual;anlass;casual;['globus:pim.damenfashion.anlass'];occasion;casual;Y
+5;anlass-freizeit;anlass;freizeit;['globus:pim.kinder.anlass'];occasion;freetime;Y
+6;anthrazit;attribute not known;anthrazit;;attribute not known;;N
+7;armabschluss-manschettenmiteinemknopf;armabschluss;manschettenmiteinemknopf;['globus:pim.damenfashion.armabschluss'];cuff;;N
+8;armabschluss-mitverstellbarenmanschetten;armabschluss;mitverstellbarenmanschetten;['globus:pim.damenfashion.armabschluss'];cuff;;N
+9;armelform-raglanarmel;armelform;raglanarmel;['globus:pim.damenfashion.armelform'];form of sleeves;;N
+10;armellange-34armlange;armellange;34armlange;['globus:pim.damenfashion.armellange'];length of sleeves;3/4 arm length;Y
+11;armellange-kurzarm;armellange;kurzarm;['globus:pim.damenfashion.armellange'];length of sleeves;short;Y
+12;armellange-langarm;armellange;langarm;['globus:pim.damenfashion.armellange'];length of sleeves;long;Y
+13;armellange-ohnearm;armellange;ohnearm;['globus:pim.damenfashion.armellange'];length of sleeves;without  sleeves;Y
+14;ausschnittkragenform-blusenkragen;ausschnittkragenform;blusenkragen;['globus:pim.damenfashion.ausschnittkragenform'];neck line;blouse ;Y
+15;ausschnittkragenform-kapuzenkragen;ausschnittkragenform;kapuzenkragen;['globus:pim.damenfashion.ausschnittkragenform'];neck line;;N
+16;ausschnittkragenform-polokragen;ausschnittkragenform;polokragen;['globus:pim.damenfashion.ausschnittkragenform'];neck line;shirt collar;Y
+17;ausschnittkragenform-rundhalsausschnitt;ausschnittkragenform;rundhalsausschnitt;['globus:pim.damenfashion.ausschnittkragenform'];neck line;rounded;Y
+18;ausschnittkragenform-stehkragen;ausschnittkragenform;stehkragen;['globus:pim.damenfashion.ausschnittkragenform'];neck line;stand collar;Y
+19;ausschnittkragenform-vausschnitt;ausschnittkragenform;vausschnitt;['globus:pim.damenfashion.ausschnittkragenform'];neck line;V-cut;Y
+20;beidesaison;attribute not known;beidesaison;;attribute not known;;N
+21;beige;attribute not known;beige;;attribute not known;;N
+22;besonderheiten-abnehmbarerlaengenverstellbarerschulterriemen;besonderheiten;abnehmbarerlaengenverstellbarerschulterriemen;['globus:pim.accessoires.besonderheiten'];special feature;removable bag strap;Y
+23;besonderheiten-anhaenger;besonderheiten;anhaenger;['globus:pim.accessoires.besonderheiten'];special feature;pendant;Y
+24;besonderheiten-applikationen;besonderheiten;applikationen;;special feature;;N
+25;besonderheiten-fransen;besonderheiten;fransen;['globus:pim.accessoires.besonderheiten'];special feature;;N
+26;besonderheiten-glitzerapplikationen;besonderheiten;glitzerapplikationen;;special feature;glitters;Y
+27;besonderheiten-goldfarbenedetails;besonderheiten;goldfarbenedetails;['globus:pim.accessoires.besonderheiten'];special feature;gold details;Y
+28;besonderheiten-mitschoenerraffung;besonderheiten;mitschoenerraffung;['globus:pim.damenfashion.besonderheiten'];special feature;clothes gathered;Y
+29;besonderheiten-mitunterkleid;besonderheiten;mitunterkleid;['globus:pim.damenfashion.besonderheiten'];special feature;;N
+30;besonderheiten-silberfarbenedetails;besonderheiten;silberfarbenedetails;['globus:pim.accessoires.besonderheiten'];special feature;silver details;Y
+31;besonderheiten-taschenbodenmitschutzfuesschen;besonderheiten;taschenbodenmitschutzfuesschen;['globus:pim.accessoires.besonderheiten'];special feature;;N
+32;besonderheiten-verstellbarerschulterriemen;besonderheiten;verstellbarerschulterriemen;['globus:pim.accessoires.besonderheiten'];special feature;adjustable bag strap;Y
+33;bleichen-0;bleichen;0;;bleach;;N
+34;bleichen-2;bleichen;2;;bleach;;N
+35;bordeaux;attribute not known;bordeaux;;attribute not known;;N
+36;braun;attribute not known;braun;;attribute not known;;N
+37;brusttasche-mitbrusttasche;brusttasche;mitbrusttasche;['globus:pim.damenfashion.brusttasche'];front pocket;front pocket;Y
+38;buegeln-0;buegeln;0;;iron;;N
+39;buegeln-1;buegeln;1;;iron;;N
+40;buegeln-2;buegeln;2;;iron;;N
+41;bundhohe-normalebundhohe;bundhohe;normalebundhohe;['globus:pim.damenfashion.bundhohe'];;;N
+42;chemReinigen-0;chemReinigen;0;;chemical cleaning;;N
+43;chemReinigen-3;chemReinigen;3;;chemical cleaning;;N
+44;chemReinigen-4;chemReinigen;4;['globus:pim.general.pflegehinweis.chemReinigen'];chemical cleaning;;N
+45;decksohle-leder;decksohle;leder;['globus:pim.accessoires.decksohle'];insole;leather;Y
+46;decksohle-textil;decksohle;textil;;insole;textile;Y
+47;ecru;attribute not known;ecru;;;;N
+48;falten-bugelfalten;falten;bugelfalten;['globus:pim.damenfashion.falten'];;;N
+49;formschuhe-offeneschuhspitze;formschuhe;offeneschuhspitze;['globus:pim.accessoires.formschuhe'];shoe form;open toe;Y
+50;formschuhe-runderschuhspitze;formschuhe;runderschuhspitze;['globus:pim.accessoires.formschuhe'];shoe form;rounded toe;Y
+51;formschuhe-spitzeschuhspitze;formschuhe;spitzeschuhspitze;['globus:pim.accessoires.formschuhe'];shoe form;pointed toe;Y
+52;futtermaterial-L18;futtermaterial;L18;;;;N
+53;futtermaterial-PES;futtermaterial;PES;;;;N
+54;futtermaterial-textil;futtermaterial;textil;;;;N
+55;griff-festergriff;griff;festergriff;['globus:pim.damenfashion.griff'];grip;strong grip;Y
+56;griff-fliessend;griff;fliessend;['globus:pim.damenfashion.griff'];grip;smooth grip;Y
+57;griff-weichergriff;griff;weichergriff;['globus:pim.damenfashion.griff'];grip;soft grip;Y
+58;grün;attribute not known;grün;;;;N
+59;hellblau;attribute not known;hellblau;;;;N
+60;hemdenkragenform-buttondownkragen;hemdenkragenform;buttondownkragen;['globus:pim.herrenfashion.hemdenkragenform'];type of collar;Button down;Y
+61;hemdenkragenform-kentkragen;hemdenkragenform;kentkragen;['globus:pim.herrenfashion.hemdenkragenform'];type of collar;Kent;Y
+62;hosenbeinform-schmalzulaufendgeschnittenesbein;hosenbeinform;schmalzulaufendgeschnittenesbein;['globus:pim.damenfashion.hosenbeinform'];;;N
+63;hosenlange-78lange;hosenlange;78lange;['globus:pim.damenfashion.hosenlange'];length of trousers;7/8 length;Y
+64;hosenlange-normalelange;hosenlange;normalelange;['globus:pim.damenfashion.hosenlange'];length of trousers;normal;Y
+65;innenausstattung-facher;innenausstattung;facher;['globus:pim.damenfashion.innenausstattung'];;inside:bag pockets;N
+66;innenausstattung-fachmitreissverschluss;innenausstattung;fachmitreissverschluss;['globus:pim.damenfashion.innenausstattung'];;;N
+67;innenausstattung-handyfach;innenausstattung;handyfach;['globus:pim.damenfashion.innenausstattung'];;inside:cell phone holder;N
+68;innenausstattung-innentasche;innenausstattung;innentasche;['globus:pim.damenfashion.innenausstattung'];;inside bag;N
+69;innenausstattung-schluesselanhaenger;innenausstattung;schluesselanhaenger;['globus:pim.damenfashion.innenausstattung'];;key-holder;N
+70;innenausstattung-steckfacher;innenausstattung;steckfacher;['globus:pim.damenfashion.innenausstattung'];;;N
+71;innenausstattung-vollfutter;innenausstattung;vollfutter;['globus:pim.damenfashion.innenausstattung'];;;N
+72;klein gemustert;attribute not known;klein gemustert;;;small patterns;N
+73;knopfleiste-mitaufgesetzterknopfleiste;knopfleiste;mitaufgesetzterknopfleiste;['globus:pim.herrenfashion.knopfleiste'];;;N
+74;knopfleiste-mitglatterknopfleiste;knopfleiste;mitglatterknopfleiste;['globus:pim.herrenfashion.knopfleiste'];;;N
+75;kragenstabchen-herausnehmbarekragenstabchen;kragenstabchen;herausnehmbarekragenstabchen;['globus:pim.herrenfashion.kragenstabchen'];;;N
+76;kragenstabchen-ohnekragenstabchen;kragenstabchen;ohnekragenstabchen;['globus:pim.herrenfashion.kragenstabchen'];;;N
+77;laufsohle-gummi;laufsohle;gummi;['globus:pim.accessoires.laufsohle'];outsole;rubber ;Y
+78;laufsohle-leder;laufsohle;leder;['globus:pim.accessoires.laufsohle'];outsole;leather;Y
+79;material-CAC;material;CAC;;;;N
+80;material-CMD;material;CMD;;;;N
+81;material-CO;material;CO;;;;N
+82;material-CV;material;CV;;;;N
+83;material-EL;material;EL;;;;N
+84;material-L1;material;L1;;;;N
+85;material-L18;material;L18;;;;N
+86;material-L2;material;L2;;;;N
+87;material-LI;material;LI;;;;N
+88;material-MER;material;MER;;;;N
+89;material-PA;material;PA;;;;N
+90;material-PES;material;PES;;;;N
+91;material-PU;material;PU;;;;N
+92;material-SE;material;SE;;;;N
+93;material-WO;material;WO;;;;N
+94;musterung-aufdruck;musterung;aufdruck;['globus:pim.damenfashion.musterung'];pattern;printed pattern;Y
+95;musterung-grafischemmuster;musterung;grafischemmuster;['globus:pim.damenfashion.musterung'];pattern;graphic pattern;Y
+96;musterung-karomuster;musterung;karomuster;['globus:pim.damenfashion.musterung'];pattern;check pattern;Y
+97;musterung-organischemmuster;musterung;organischemmuster;['globus:pim.damenfashion.musterung'];pattern;organic patter;Y
+98;musterung-streifenmuster;musterung;streifenmuster;['globus:pim.damenfashion.musterung'];pattern;striped;Y
+99;musterung-unifarben;musterung;unifarben;;pattern;plain;Y
+100;nassReinigen-0;nassReinigen;0;;;;N
+101;navabsatzhohe-bis3cmabsatzhohe;navabsatzhohe;bis3cmabsatzhohe;['globus:pim.accessoires.navabsatzhohe'];height of heels;up to 3cm;Y
+102;navabsatzhohe-uber6cmabsatzhohe;navabsatzhohe;uber6cmabsatzhohe;['globus:pim.accessoires.navabsatzhohe'];height of heels;over 6cm;Y
+103;navabsatzhohe-von3cm6cmabsatzhohe;navabsatzhohe;von3cm6cmabsatzhohe;['globus:pim.accessoires.navabsatzhohe'];height of heels;3-6 cm;Y
+104;navblusentuniken-blusen;navblusentuniken;blusen;['globus:pim.damenfashion.navblusentuniken'];blouse type;blouse ;Y
+105;navblusentuniken-schlupfblusen;navblusentuniken;schlupfblusen;['globus:pim.damenfashion.navblusentuniken'];blouse type;slip-over blouse;Y
+106;navdamenaccessoires-schalsundtucher;navdamenaccessoires;schalsundtucher;['globus:pim.accessoires.navdamenaccessoires'];accessories;scarf;Y
+107;navdamenschuhe-sandalensandaletten;navdamenschuhe;sandalensandaletten;['globus:pim.accessoires.navdamenschuhe'];type of shoes;sandal;Y
+108;navdamenschuhe-sneakers;navdamenschuhe;sneakers;['globus:pim.accessoires.navdamenschuhe'];type of shoes;sneakers;Y
+109;navdamenschuhe-stiefelstiefeletten;navdamenschuhe;stiefelstiefeletten;['globus:pim.accessoires.navdamenschuhe'];type of shoes;boots;Y
+110;navdamentaschen-clutchabendtaschen;navdamentaschen;clutchabendtaschen;['globus:pim.accessoires.navdamentaschen'];type of bag;clutch;Y
+111;navdamentaschen-handtaschen;navdamentaschen;handtaschen;['globus:pim.accessoires.navdamentaschen'];type of bag;handbag;Y
+112;navdamentaschen-umhangeschultertaschen;navdamentaschen;umhangeschultertaschen;['globus:pim.accessoires.navdamentaschen'];type of bag;shoulder bag;Y
+113;navhosen-chinos;navhosen;chinos;['globus:pim.damenfashion.navhosen'];trouser type;chino;Y
+114;navhosen-stoffhosen;navhosen;stoffhosen;['globus:pim.damenfashion.navhosen'];trouser type;regular trousers;Y
+115;navkleider-freizeitkleider;navkleider;freizeitkleider;['globus:pim.damenfashion.navkleider'];dress;casual clothes;Y
+116;navmusterung-gemustertodermitdruck;navmusterung;gemustertodermitdruck;['globus:pim.damenfashion.navmusterung'];pattern;with pattern or print;Y
+117;navmusterung-unifarben;navmusterung;unifarben;['globus:pim.damenfashion.navmusterung'];pattern;plain;Y
+118;navpulloverstrick-pullover;navpulloverstrick;pullover;['globus:pim.damenfashion.navpulloverstrick'];navpulloverstrick;pullover;Y
+119;navpulloverstrick-strickjacken;navpulloverstrick;strickjacken;['globus:pim.damenfashion.navpulloverstrick'];navpulloverstrick;cardigan;Y
+120;navshirtstopssweats-poloshirts;navshirtstopssweats;poloshirts;['globus:pim.damenfashion.navshirtstopssweats'];navshirtstopssweats;polo shirt;Y
+121;navshirtstopssweats-shirts;navshirtstopssweats;shirts;['globus:pim.damenfashion.navshirtstopssweats'];navshirtstopssweats;shirt;Y
+122;navshirtstopssweats-sweatjs;navshirtstopssweats;sweatjs;['globus:pim.damenfashion.navshirtstopssweats'];navshirtstopssweats;sweats;Y
+123;navshirtstopssweats-tshirts;navshirtstopssweats;tshirts;['globus:pim.damenfashion.navshirtstopssweats'];navshirtstopssweats;tshirt;Y
+124;offwhite;attribute not known;offwhite;;;offwhite;Y
+125;passform-001;passform;1;['globus:pim.general.passform'];;;N
+126;passform-002;passform;2;['globus:pim.general.passform'];;;N
+127;passform-003;passform;3;['globus:pim.general.passform'];;;N
+128;passform-009;passform;9;['globus:pim.general.passform'];;;N
+129;pink;attribute not known;pink;;;;N
+130;qualitaet-100baumwolle;qualitaet;100baumwolle;['globus:pim.heimhaushalt.qualitaet'];quality;100% cotton;Y
+131;qualitaet-100cashmere;qualitaet;100cashmere;['globus:pim.heimhaushalt.qualitaet'];quality;100% cashmere;Y
+132;qualitaet-100leinen;qualitaet;100leinen;['globus:pim.heimhaushalt.qualitaet'];quality;100% linen;Y
+133;qualitaet-100seide;qualitaet;100seide;['globus:pim.heimhaushalt.qualitaet'];quality;100% silk;Y
+134;qualitaet-100wolle;qualitaet;100wolle;['globus:pim.heimhaushalt.qualitaet'];quality;100% wool;Y
+135;qualitaet-echtesleder;qualitaet;echtesleder;['globus:pim.heimhaushalt.qualitaet'];quality;real leather;Y
+136;qualitaet-kunstleder;qualitaet;kunstleder;;quality;synthetic leather;Y
+137;qualitaet-kunstmischgewebe;qualitaet;kunstmischgewebe;['globus:pim.heimhaushalt.qualitaet'];quality;;N
+138;qualitaet-mischgewebemitelasthan;qualitaet;mischgewebemitelasthan;['globus:pim.heimhaushalt.qualitaet'];quality;;N
+139;qualitaet-naturfasermischgewebe;qualitaet;naturfasermischgewebe;['globus:pim.heimhaushalt.qualitaet'];quality;;N
+140;qualitaet-naturfasermitelasthan;qualitaet;naturfasermitelasthan;['globus:pim.heimhaushalt.qualitaet'];quality;;N
+141;rahmengenaht-False;rahmengenaht;FALSE;;;;N
+142;regularfit;attribute not known;regularfit;;fit type;regularfit;Y
+143;rocklange-inmidirocklange;rocklange;inmidirocklange;['globus:pim.damenfashion.rocklange'];length of skirt;midi;Y
+144;rosa;attribute not known;rosa;;;;N
+145;saison-Warmequalitaet;saison;Warmequalitaet;['globus:pim.damenfashion.saison'];quality;warm;Y
+146;saison-leichtequalitaet;saison;leichtequalitaet;['globus:pim.damenfashion.saison'];quality;light;Y
+147;saison-mittelschwerequalitaet;saison;mittelschwerequalitaet;['globus:pim.damenfashion.saison'];quality;medium warm;Y
+148;schuhhoehe-Sneakertief;schuhhoehe;Sneakertief;['globus:pim.accessoires.schuhhoehe'];height of shoues;sneaker;Y
+149;slimfit;attribute not known;slimfit;;fit type;slimfit;Y
+150;sommer;attribute not known;sommer;;season;summer;Y
+151;tailliert;attribute not known;tailliert;;fit type;tailliert;Y
+152;taschen-leistentaschen;taschen;leistentaschen;['globus:pim.damenfashion.taschen'];bags;;N
+153;taschen-passepoiltaschen;taschen;passepoiltaschen;['globus:pim.damenfashion.taschen'];bags;;N
+154;taschen-schragertascheneingriff;taschen;schragertascheneingriff;['globus:pim.damenfashion.taschen'];bags;;N
+155;trocknen-0;trocknen;0;;;;N
+156;trocknen-1;trocknen;1;;;;N
+157;trocknen-2;trocknen;2;;;;N
+158;verschlussartfashion-druckknopfe;verschlussartfashion;druckknopfe;['globus:pim.damenfashion.verschlussartfashion'];clothes closure;push-buttons;Y
+159;verschlussartfashion-knopfe;verschlussartfashion;knopfe;['globus:pim.damenfashion.verschlussartfashion'];clothes closure;buttons;Y
+160;verschlussartfashion-magnetverschluss;verschlussartfashion;magnetverschluss;['globus:pim.damenfashion.verschlussartfashion'];clothes closure;magnet;Y
+161;verschlussartfashion-reisverschluss;verschlussartfashion;reisverschluss;['globus:pim.damenfashion.verschlussartfashion'];clothes closure;zip;Y
+162;verschlussartfashion-riegelverschluss;verschlussartfashion;riegelverschluss;['globus:pim.damenfashion.verschlussartfashion'];;;N
+163;verschlussartfashion-schnurung;verschlussartfashion;schnurung;['globus:pim.damenfashion.verschlussartfashion'];;;N
+164;verschlussschuhe-reissverschluss;verschlussschuhe;reissverschluss;['globus:pim.accessoires.verschlussschuhe'];shoe closure;with zipper;Y
+165;verschlussschuhe-zumschlupfen;verschlussschuhe;zumschlupfen;['globus:pim.accessoires.verschlussschuhe'];shoe closure;;Y
+166;verschlussschuhe-zumschnuren;verschlussschuhe;zumschnuren;['globus:pim.accessoires.verschlussschuhe'];shoe closure;lace-up;Y
+167;waschen-0;waschen;0;;;;N
+168;waschen-1;waschen;1;;;;N
+169;waschen-2;waschen;2;;;;N
+170;waschen-3;waschen;3;;;;N
+171;waschen-4;waschen;4;['globus:pim.general.pflegehinweis.waschen'];;;N
+172;waschen-F;waschen;F;['globus:pim.general.pflegehinweis.waschen'];;;N
+173;waschen-G;waschen;G;['globus:pim.general.pflegehinweis.waschen'];;;N
+174;webart-Strukturstrick;webart;Strukturstrick;['globus:pim.damenfashion.webart'];material;knitted;N
+175;webart-ausjersey;webart;ausjersey;['globus:pim.damenfashion.webart'];material;;N
+176;webart-chambraygewebeleichtstrukturierteroptik;webart;chambraygewebeleichtstrukturierteroptik;['globus:pim.damenfashion.webart'];material;;N
+177;webart-feineschiffongewebe;webart;feineschiffongewebe;['globus:pim.damenfashion.webart'];material;;N
+178;webart-gewebemitflacheroptik;webart;gewebemitflacheroptik;['globus:pim.damenfashion.webart'];material;;N
+179;webart-oxfordgewebestrukturierteroptik;webart;oxfordgewebestrukturierteroptik;['globus:pim.damenfashion.webart'];material;;N
+180;webart-popelinegewebeflacheroptik;webart;popelinegewebeflacheroptik;['globus:pim.damenfashion.webart'];material;;N
+181;webart-strick;webart;strick;['globus:pim.damenfashion.webart'];material;knitted;Y
+182;webart-twillgewebeleichterschragverlaufenderstruktur;webart;twillgewebeleichterschragverlaufenderstruktur;['globus:pim.damenfashion.webart'];material;;N
+183;winter;attribute not known;winter;;season;winter;Y
