@@ -1,5 +1,3 @@
-Readme
-
 # What the files do:
 
 1. ‘Parsed_records_dump_20200101.p’:
@@ -27,7 +25,6 @@ Readme
     Check, whether a valid path is available for all images - delete the rows, if no picture available
     Add the column "hierarchy2" to the columns to be extracted, in order to use it for the multiple-input model
     Save the cleaned dataframe as a csv here: 1_data_cleaning/metadata_cleaned3.csv
-
 
 5. metadata_cleaned.csv
     Output file of "metadata_cleaning.ipynb"

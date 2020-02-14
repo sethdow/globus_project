@@ -14,23 +14,35 @@ Authors: Valeria Polozun and Seth Dow
 
 Storage of project data and logging is in the efs instance provided by Propulsion. It has the following structure
 
-**root:** efs/models
-file naming conventions: These are verbose, they generally specifiy whether the model was multiinput, how many images, epochs, weight of loss functions, dense layers, open layers in the VGG, as well as a the number of neurons in each dense layer. For more detail see the readme in that 2_modeling folder in the git repo
+**root:** 
+    ├── efs
+    │   ├── models
 
-Saved_model: This is where the .h5 fully trained models reside.
+Naming conventions of the model files: These are verbose, they generally specifiy whether the model was multiinput, how many images, epochs, weight of loss functions, dense layers, open layers in the VGG, as well as a the number of neurons in each dense layer. For more detail see the readme in that 2_modeling folder in the git repo
+
+**root:** 
+    ├── efs
+    │   ├── models
+    │   │   ├── Saved_model
+    
+This is where the .h5 fully trained models reside.
+
 Training_history: We saved .pickle and .csv files with the metrics in this folder. You can navigate to the 2_modeling directory to see which metrics were used and the naming convention for models. These files were saved after training.
 Checkpoints: We also kept weights saved after each epoch of training in case of network failure. These were kept as .ckpt files. 
 
 ### Main Git Repo
 
-0_exploration: In this folder we explore several things that impacted our understanding of the project. The multilabel ROC curve, which behaves in interesting ways when calculated for a multilabel model. The frequency of each feature. How the features in our data mapped to the current GLOBUS heirarchy. Then there are files for Seth and Valeria that explore more general things such as number of photos per feature
+0_exploration: In this folder we explore several things that impacted our understanding of the project, such as:
+    - The multilabel ROC curve, which behaves in interesting ways when calculated for a multilabel model.
+    - The frequency of each feature. How the features in our data mapped to the current GLOBUS heirarchy.
+    
 
 1_cleaning: This folder creates csvs that have two purposes:
 
-    1. connect the model to the photos via valid file paths. 
-    2. make a cutoff for the features that will be fed to the model
+   1. connect the model to the photos via valid file paths. 
+   2. make a cutoff for the features that will be fed to the model
     
-    All csv created here are used in the 2_modeling folder to feed the models. The original metadata_cleaned was done by the first group. We created metadata_cleaned2, which has features that occur >500 times. We also created metadata_cleaned3 which has all the features, none were removed.
+   All csv created here are used in the 2_modeling folder to feed the models. The original metadata_cleaned was done by the first group. We created metadata_cleaned2, which has features that occur >500 times. We also created metadata_cleaned3 which has all the features, none were removed.
 
 **ONLY ONE MODEL CAN BE LOADED INTO MEMORY AT A TIME. TO TRAIN OR DO EVALUATIONS YOU MUST SHUTDOWN ALL COMPETING NOTEBOOKS**
 

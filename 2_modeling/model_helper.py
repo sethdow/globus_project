@@ -29,40 +29,57 @@ AUTOTUNE = tf.data.experimental.AUTOTUNE # Adapt preprocessing and prefetching d
 SHUFFLE_BUFFER_SIZE = 1024 # Shuffle the training data by a chunk of 1024 observations
 
 
-def train_test_split_custom_2(sample_size, random_state=44):
-  
-    df_clean = pd.read_csv('../1_cleaning/metadata_cleaned2.csv')
+def train_test_split_custom(sample_size, csv = None, random_state=44, multiple_input=False):
+    """
+        Sample a certain number of rows (optional) and binarize the feature names, but for multiple inputs
+    """
     
-    df_clean['features'] = df_clean['features'].apply(eval)
+    # features is a string of lists: "['feature 1', 'feature 2', 'feature 3']"
+    # we need the actual lists: ['feature 1', 'feature 2', 'feature 3']  
+    df_clean = pd.read_csv(csv, converters={'features': eval})
     
     df_small = df_clean if sample_size == 'all' else df_clean.sample(sample_size)
 
-    X_train, X_val, y_train, y_val = train_test_split(df_small['image_path'], df_small['features'], test_size=0.2, random_state=random_state)
-    
-    X_train2, X_val2, y_train2, y_val2 = train_test_split(df_small['hierarchy_2'], df_small['features'], test_size=0.2, random_state=random_state)
-    
+    X_train, X_val, y_train, y_val = train_test_split(df_small['image_path'],
+                                                      df_small['features'],
+                                                      test_size=0.2,
+                                                      random_state=random_state)
     
     # Fit the multi-label binarizer on the training set
     mlb = MultiLabelBinarizer()
+    # use df_clean and not df_small to make sure all features get binarized
     mlb.fit(df_clean.features)
-
+    
     # transform the targets of the training and test sets
     y_train_bin = mlb.transform(y_train)
     y_val_bin = mlb.transform(y_val)
-    
-    X_train2, X_val2 = one_hot_encode(X_train2, X_val2)
-    
+  
+    if multiple_input is True:
+        X_train2, X_val2, y_train2, y_val2 = train_test_split(df_small['hierarchy_2'],
+                                                              df_small['features'],
+                                                              test_size=0.2,
+                                                              random_state=random_state)
+        X_train2, X_val2 = one_hot_encode(X_train2, X_val2)
+    else:
+        X_train2, X_val2 = None, None
+
     return X_train, X_val, X_train2, X_val2, y_train_bin, y_val_bin, mlb.classes_
 
-def train_test_split_custom(sample_size, csv = '../1_cleaning/metadata_cleaned.csv', random_state=44):
-  
+
+"""
+def train_test_split_custom_single_input(sample_size, csv = None, random_state=44):
+
     df_clean = pd.read_csv(csv)
     
+    # TODO - consider removing this
     df_clean['features'] = df_clean['features'].apply(eval)
     
     df_small = df_clean if sample_size == 'all' else df_clean.sample(sample_size)
 
-    X_train, X_val, y_train, y_val = train_test_split(df_small['image_path'], df_small['features'], test_size=0.2, random_state=random_state)
+    X_train, X_val, y_train, y_val = train_test_split(df_small['image_path'],
+                                                      df_small['features'],
+                                                      test_size=0.2,
+                                                      random_state=random_state)
 
     # Fit the multi-label binarizer on the training set
     mlb = MultiLabelBinarizer()
@@ -73,6 +90,7 @@ def train_test_split_custom(sample_size, csv = '../1_cleaning/metadata_cleaned.c
     y_val_bin = mlb.transform(y_val)
     
     return X_train, X_val, y_train_bin, y_val_bin, mlb.classes_
+"""
 
 def one_hot_encode(X_train_hier, X_val_hier):
     
